@@ -9,11 +9,15 @@ Second Lecture [Slides Here](https://docs.google.com/presentation/d/1uZhnn_JkKoJ
   
 ## Agenda:
 * CSS
-  * Files and linking CSS
-  * CSS syntax
-  * CSS selectors
+  * [Files and linking CSS](#linking-css-in-html)
+  * [CSS syntax](#css-syntax)
+  * [CSS selectors](#css-selectors)
   * Pseudo-selectors
 * Design
+
+
+## TOC
+
 ___________
 <p align ="center"><img src="assets/imgs/HTML%20CheatSheet%20wk%204.png" width="600"></p>
 
@@ -85,21 +89,58 @@ View example [here](https://jsbin.com/gebomifozo/edit?html,css,output)
 
 ## CSS Selectors
 ### Classes 
-Apply a set of rules to multiple elemets on the page
+Apply a set of rules to **<span style="color:blue;"> multiple elements </span>** on the page
 
 HTML: add the **class attribute to the opening tag**
 CSS: put a **period in front of the class name** as a selector
-<p align ="center" >
-<img src ="assets/imgs/Classes%20Example.png" width="300" >
-</p>
+<p align ="center" ><img src ="assets/imgs/Classes%20Example.png" width="300" ></p>
 
 ### IDs
-Apply a set of rules only to one distinct element
+Apply a set of rules only to **<span style="color:red;"> one distinct element </span>**
 HTML: add **id** attribute to opening tag
 CSS: put a **hashtag in front of the id name** as a selector
+<p align = "center"><img src="assets/imgs/CSS%20ID%20Example.png" width="550"></p>
+note:
+When you have conflicting rules for an element / tag that’s defined for the tag, the class, and the ID, the ID rule takes priority over the class rule, which takes priority over the tag rule. This is called specificity. The **more specific the selector, the more power it has to override other rules** than less specific selectors.
 
 
-### Selecting 
+### Selecting Multiple Elements
+* Separate each element with a **comma** 
+* CSS **properties and values will be applied to all selected elements**
+<p align="center"><img src="assets/imgs/CSS%20Selecting%20Elements%20Example%20.png" width="300"></p>
+
+#### Selecting Elements w/ Mulitple Names
+* Classes can have multiple names within one tag.
+* No space between CSS selectors.
+* **“Select all elements with both .green and .big set within its class.”**
+* CSS in the example will only **<span style="color:blue;">apply to the first</span>** ```<p>``` tag, but **<span style="color:red;">not the second </span>.**
+  <p align="center"><img src="assets/imgs/CSS%20Selecting%20Elements%20with%20Multiple%20Names.png" width="300"></p> 
+
+#### Selecting Nested Elements
+* Space between selectors
+* **"Select all elements with ```park``` that are nested with in ```#jay```**
+* CSS in the example will only apply to the first ```<p>```, but not the second
+<p align="center"><img src="assets/imgs/CSS%20Nested%20Elements%20Example.png" width="300"></p> 
+
+### Pseudo-Selectors
+Pseudo-selects selects elements that are under a certain **state**, great for **user interaction**
+The general pseudo-selector structure: **<span style="background-color:lightblue;"> normal-selector:pseudo-class</span>**
+
+In the example, rules will be applied to the div **only when the cursor is hovering over**
+<p align="center"><img src="assets/imgs/Hover%20Div%20Example.png" width="300"></p>
+
+Some other examples:
+```:hover``` when mouse hovers over an element
+```:visted``` when a link has been visited before (default is purple hyperlink)
+```:active``` when the mouse is currently clicked on an element
+[... and many many more](https://www.w3schools.com/css/css_pseudo_classes.asp")
+
+### Summary
+<p align="center">
+<img src="assets/imgs/Week4Summary1.png" width="600">
+<img src="assets/imgs/Week4Summary2.png" width="600">
+<img src="assets/imgs/Week4Summary3.png" width="600">
+</p>
 
 ## Introduction to Design
 Approach design as problem solving
@@ -112,7 +153,9 @@ Approach design as problem solving
 UX, UX, and HCD
 Fidelity (low and high fidelity)
 
-wireframe --> mockup --> HTML
+wireframe --> mockup --> 
+
+
 
 ## Visual Heirarchy and Spacing
 ### Importance of space
@@ -130,13 +173,13 @@ Barren: overuse of whitespace
 ### Macro & Micro Level Spacing
 Macro-level spacing: space between core elements
 
-**Padding and Margin **
+**Padding and Margin**
 Padding: Spacing withing the broder of an element
 Margin: 
 
 **CSS Box Model**
 For spacing in webdesign
 
-### Line width
+
 
 
