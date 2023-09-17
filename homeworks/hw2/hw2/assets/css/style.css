@@ -38,10 +38,15 @@ div {
     margin-right: 30px;
     border-radius: 50%;
 }
+
+/* Problem 3: Nested element example - first, view the third row then, change the circles' colors*/ 
+#third-row .circle{
+    background-color:#de6868;
+}
 .square {
     width: 60px;
     height: 60px;
-    background: white;
+    background: #e67e22;
     display: inline-block;
     margin-right: 30px;
 }
@@ -55,4 +60,30 @@ div {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
+}
+
+/*Problem 4*/
+.circle.fancy{ /* note: order of .circle & .fancy doesn't matter but for consistency kept in order */
+    border-style: dotted;
+}
+
+/*Problem 5: Select circles in first column and make them disappear */
+.circle:first-child{
+    opacity: 0;
+}
+
+/*Problem 6: Select all shapes that are either green, fancy, or both and make them blue */
+.green,.fancy,.green.fancy{
+    background: #6392c0;
+}
+
+/*Problem 7: Select circles and make them go faint when you hover them */
+.circle:hover{
+    opacity: 0.5;
+}
+/*note: circles hidden in problem 4 may appear again*/
+
+/*Problem 8: Select all circles in the second row an dmake them bigger when you hover*/
+#second-row .circle:hover{
+    transform: scale(1.25);
 }
