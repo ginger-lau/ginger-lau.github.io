@@ -1,22 +1,32 @@
-# CSS Selectors, Pseudo-selectors
+# Topic: CSS Selectors, Pseudo-selectors
 Thur Sept 14
 Second Lecture [Slides Here](https://docs.google.com/presentation/d/1uZhnn_JkKoJU-lpSY46tW0seQGcjQTPTcXfoY7MF6QE/edit#slide=id.g604587fed6_1_0_
 )
 
 <span style ='color :red;'> HW2 Due Thur 9/21 6:30pm </span>
+* reminder: prefer **relative paths** to absolute paths ``` assets/img/img.png ```
 
-* prefer **relative paths** to absolute paths ``` assets/img/img.png ```
-  
-## Agenda:
-* CSS
-  * [Files and linking CSS](#linking-css-in-html)
-  * [CSS syntax](#css-syntax)
-  * [CSS selectors](#css-selectors)
-  * Pseudo-selectors
-* Design
-
-
-## TOC
+Table of Contents
+- [Topic: CSS Selectors, Pseudo-selectors](#topic-css-selectors-pseudo-selectors)
+  - [CSS](#css)
+    - [Linking CSS in HTML](#linking-css-in-html)
+    - [CSS Syntax](#css-syntax)
+    - [Selectors](#selectors)
+    - [Property and Value](#property-and-value)
+    - [Miscellanous, Very Small things](#miscellanous-very-small-things)
+      - [HTML and CSS at a Glance](#html-and-css-at-a-glance)
+  - [CSS Selectors](#css-selectors)
+    - [Classes](#classes)
+    - [IDs](#ids)
+    - [Selecting Multiple Elements](#selecting-multiple-elements)
+      - [Selecting Elements w/ Mulitple Names](#selecting-elements-w-mulitple-names)
+      - [Selecting Nested Elements](#selecting-nested-elements)
+    - [Pseudo-Selectors](#pseudo-selectors)
+    - [Summary](#summary)
+  - [Introduction to Design](#introduction-to-design)
+  - [Visual Heirarchy and Spacing](#visual-heirarchy-and-spacing)
+    - [Importance of space](#importance-of-space)
+    - [Macro \& Micro Level Spacing](#macro--micro-level-spacing)
 
 ___________
 <p align ="center"><img src="assets/imgs/HTML%20CheatSheet%20wk%204.png" width="600"></p>
