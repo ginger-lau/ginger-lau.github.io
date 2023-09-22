@@ -1,4 +1,4 @@
-note: this is corresponds with week 3 lecture notes
+note: this is corresponds with week 3 lecture notes and hw3
 [Slides Availabe Here](https://docs.google.com/presentation/d/1Bnh9YsU_qQP-sAK9_ZlJgRz8BdzUpy4HUYzljBaUR_Q/edit?usp=sharing)
 # Box Model and Spacing
 
@@ -79,7 +79,7 @@ Example of different padding on different sides
 }
 ~~~
 
-Can also specify top right bottom left for **margin**
+Can also specify **top right bottom left** for **margin**
 
 #### Units
 **px - pixels**; objective value but may not always be the best unit
