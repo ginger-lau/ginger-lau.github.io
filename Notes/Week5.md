@@ -38,6 +38,7 @@ Agenda
  }
  ```
 ## Box Model
+<img src="assets/imgs/Week5_BoxModel.png" width="600" margin="auto">
 
 **Picture on the Wall Analogy**
 content - picture itself
@@ -104,19 +105,18 @@ Can also specify top right bottom left for **margin**
 ~~~
 
 #### Intro to layout
-to center an content with margin can use ```auto```
+to center content with margin can use ```auto```
+For instance, to center the content along the width of the page, 
+~~~
+    margin-left: auto; 
+    margin-right: auto;
+~~~
 
 #### How do we put stuff next to each other?
 In CSS; by defaul things stack column wise
 
 **CSS Display**
-```display:block;```
-Everything goes on its own line no matter width
-* can use margin 
-
-```display:in-line;```
-
-<span style="color:red;"> MISSING CONTENT</span>
+<img src="assets/imgs/Week5_CSSDisplay.png" width="600" margin="auto">
 
 ```diaply ``` and ```float```
 can tell CSS to prefer left or right side ie ```float:left;``` 
