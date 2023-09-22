@@ -133,3 +133,48 @@ Some Common patterns in layout structure
 * a column of content is a div
 
 <span style="color:red;">MISSING CONTENT</span>
+
+# Typography in Web Design
+## Typography
+* typography evokes the personality.character of a website
+* branding can showacse a variety of metions through type
+* often more than 80% of content is text
+* lets communicate effectively through size, weight, and color
+
+
+#### How do we use typography?
+**Serif Fonts*
+* has a little flick wither the letter forms terminate
+* feels classy and formal
+* TNR
+  Use for **text heavy content** because easier to carry between words
+
+**San Serif Fonts**
+* does not have a flick
+* feels modern
+* arial, Helvetica Neue, karla
+  Use for **image-heavy content**
+
+#### **Hierarchy**
+Use weights to create hierarchy, think of type as blocks
+* rule of thumb; 
+  * use 2-3 fonts per website (one for headers and one for body)
+  * type is not an exact sicence, it is aligned when it feels aligned
+    * With alignment, sometimes fonts have built in padding and you have to eyeball things
+* Pick a font that has a lot fo weights
+
+Spacing for text
+* use line-spacing 1.2x - 1.5x 
+* text width; 40-70 characters per line
+* Use contrast
+
+
+#### Choosing fonts
+Resources:
+Google Fonts is your friend  -- shows types and weights available
+Typesample.com 
+whatfont - explores fonts on the web
+Korean Google Fonts
+Rin Typography
+
+
