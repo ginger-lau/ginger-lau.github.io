@@ -43,7 +43,7 @@ top and bottom, 30 for the left and right*/
 full opacity when hovered over! It should also have a
 transition period of 0.2 seconds*/
 .item:hover{
-    opacity: 100%;
+    opacity: 1;
     transition: opacity .2s;
 }
 
@@ -56,7 +56,10 @@ larger when clicked on!*/
 
 /* PROBLEM 10: Add a hover effect such that the text of the
 navigation has an opacity of 1 when hovered over!*/
-/* YOUR CODE HERE */
-
-/* PROBLEM 11: In one selection, make the follow button, picture
-items, and nav bar items have a pointer cursor */
+#navbar :hover{
+    opacity: 1;
+}
+/* PROBLEM 11: In one selection, make the follow button, picture */
+#follow-button, .item, .navbar-item{
+    cursor: pointer;
+}
