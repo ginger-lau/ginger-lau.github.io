@@ -124,8 +124,14 @@ can tell CSS to prefer left or right side ie ```float:left;```
 **Tink of a page as building blocks put together**
 
 #### Chrome DevTools (Inspect Element)
-* **best way** to debug code
-* <span style="color:red;">MISSING CONENT</span>
+Inspect Element is the best way to debug & figure out what’s going on with your code!
+* Hover over an HTML tag → it will show you the box model diagram of the element (its width, height, padding, margin)
+
+* Click on an HTML tag → see what CSS rules are affecting it
+
+* Click on a CSS property or value → edit the CSS and see the changes happen!
+
+* Click in the CSS rules area → add CSS to the specific HTML tag you’re on and see the changes happen!
 
 
 Some Common patterns in layout structure
