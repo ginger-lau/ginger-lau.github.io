@@ -1,4 +1,5 @@
 note: this is corresponds with week 3 lecture notes
+[Slides Availabe Here](https://docs.google.com/presentation/d/1Bnh9YsU_qQP-sAK9_ZlJgRz8BdzUpy4HUYzljBaUR_Q/edit?usp=sharing)
 # Box Model and Spacing
 
 Agenda
@@ -102,7 +103,7 @@ Can also specify top right bottom left for **margin**
  }
 ~~~
 
-## Intro to layout
+#### Intro to layout
 to center an content with margin can use ```auto```
 
 #### How do we put stuff next to each other?
@@ -128,11 +129,15 @@ can tell CSS to prefer left or right side ie ```float:left;```
 
 
 Some Common patterns in layout structure
-* there is a main container for the page that holds everything
-* the header might be separaet since its a block on its own
-* a column of content is a div
+* There is a main container for the page that holds everything
+  * The header might be separate since it’s a block of its own
+* A column of content is a div
+  * These columns have components like a list of links, some text, a post
+  * Columns of content next to each other are put next to each other in a row
 
-<span style="color:red;">MISSING CONTENT</span>
+Start from simple components 
+→ piece together in rows and columns
+→ complex layouts are just put together from simple layouts!
 
 # Typography in Web Design
 ## Typography
