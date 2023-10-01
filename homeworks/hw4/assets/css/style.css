@@ -58,7 +58,7 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
-    position: absolute;
+    position: absolute; /*color overlay is the child of image-card div so setting the abs pos withing the parent div to 0*/
     top: 0px;
     left: 0px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
@@ -69,7 +69,7 @@ header {
 
 .image-card:hover .image-card-color-overlay {
     /* PROBLEM 5: Pick an opacity for the blue hover effect */
-    opacity: 0.7;
+    opacity: 0.3; /* Opacity of card-color-layover lightens when hovered*/
 }
 
 .image-card-text {
