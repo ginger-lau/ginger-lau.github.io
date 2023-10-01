@@ -117,7 +117,7 @@ Yellow
 - no one uses pure black for text and bckgrnd(use #333 instead to reduce strain) --- use a dark gray
 - match colors to 
 
-figma lab next tues
-check in with ta thur
+figma lab next tues - oct 3
+check in with ta thur - oct 
 have 2 weeks to develop it in HTML/CSS due OCT 17 Tues 
 Thur after, pick a few midterm that stuck out and present 
