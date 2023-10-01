@@ -44,7 +44,7 @@ header {
     overflow: hidden;
     margin-right: 40px;
     /* PROBLEM 3: Give .image-card the appropriate position type */
-
+    position: relative; /* Allows Seattle and New York to be next to each other */
 }
 
 .image-card:last-child {
@@ -58,6 +58,7 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
+    position: absolute;
     top: 50px;
     left: 200px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
