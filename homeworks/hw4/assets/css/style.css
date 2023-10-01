@@ -9,12 +9,14 @@ header {
     padding-bottom: 20px;
     background: white;
     /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position:fixed
 
 }
 
 .content {
     width: 800px;
     /* PROBLEM 2: Align the page content to the center of the screen */
+    margin: auto;
 
 }
 
