@@ -77,7 +77,8 @@ header {
     position: absolute;
     bottom: 20px;
     left: 29px;
-
+    font-family: DM Sans;
+    font-size: 22px;
     color: white;
 }
 
@@ -85,23 +86,35 @@ header {
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
-    font-family: Karla;
-    font-weight: bold;
-    font-size: 32px;
+    font-family: Rubik Mono One;
+    font-weight: ExtraBold800;
+    font-size: 38px;
 }
 
 h1 {
+    font-family: Inconsolata;
+    font-size: 24px;
+    color:purple;
+    font-weight: 900;
 
 }
 
 h2 {
-
+    font-family: DM Sans;
+    font-size: 12px;
+    
 }
 
 h3 {
-
+    font-family: DM Sans;
+    font-size: 22px;
+    margin-top: 100px;
 }
 
 p {
-
+    font-family: DM Sans;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 20px;
 }
