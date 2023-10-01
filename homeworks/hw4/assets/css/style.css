@@ -69,13 +69,14 @@ header {
 
 .image-card:hover .image-card-color-overlay {
     /* PROBLEM 5: Pick an opacity for the blue hover effect */
-    opacity: 0.7; /* Opacity of card-color-layover lightens when hovered*/
+    opacity: 0.7; /* Opacity of card-color-layover turns blue when hovered*/
 }
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
-
-
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 
     color: white;
 }
