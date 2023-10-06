@@ -69,3 +69,16 @@ tinyurl.com/wddflexy
 flexboxfroggy.com/
 
 ## Images and Layout
+#### Image use
+* promote and highlight products
+  
+Catalog websites
+    * shows
+    * ie. netflix, youtube, 
+
+Thumbnailing websites - a small respersntaino of a larger image, usually intentded to make it easier and faster to manage a group of larger images
+    * masonry
+      * variable sizes
+    * grid layout
+    * justified
+    * standard 
