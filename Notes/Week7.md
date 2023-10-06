@@ -28,7 +28,7 @@ Box alignign items in a row (default)
 
 ~~~
 
-~~~
+```
 #best-box{
     display:flex
     flex-direction:row; // can also use column, row-reverse, column-reverse
@@ -39,7 +39,7 @@ Box alignign items in a row (default)
     flex-direction:row;
     justify-content: center; // tells it to move things on the main axis (centering on left to right axis)
 }
-~~~
+```
 
 #### Flex Box Axis
 flex-direction row:
@@ -48,7 +48,16 @@ flex-direction row:
 flex-direction column
 * main axis is up down
 * cross axis is left right
-
+  
+**Modifying things on the main axis**
 ```justify-content: center;``` centers items along main axis
 ```justify-content: space-between;``` spreads things as far apart as possinbble
 ```justify-content: space-around;``` space between each item is the same as space to the edge
+```justify-content: space-evenly;```
+```justify-content: flex-start;```
+
+**Modifying things on the cross axis**
+```align-items:center```- aligns things centered on the cross axis
+```align-items:flex-start;```- puts things at the beginning of cross axis
+```align-items:flex-end```- puts things at the end of the cross axis
+```align-items:stretch```- fix the entire cross axis
