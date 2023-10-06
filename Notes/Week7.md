@@ -104,5 +104,10 @@ GIFS (graphics interchange format)
 * very light weight
 * animations make it larger
 
+https://waaark.com/ 
 
+SVG (scalable vector graphic)
+* vector: can be saved automatically without loss of quality
+* extremely light weight
+* easy to customize with a code editor
 
