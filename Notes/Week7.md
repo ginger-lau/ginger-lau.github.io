@@ -70,15 +70,39 @@ flexboxfroggy.com/
 
 ## Images and Layout
 #### Image use
-* promote and highlight products
+**Products websites**
+  * promote and highlight products
   
-Catalog websites
+**Catalog websites**
     * shows
     * ie. netflix, youtube, 
 
-Thumbnailing websites - a small respersntaino of a larger image, usually intentded to make it easier and faster to manage a group of larger images
+**Thumbnailing websites** - a small respersntaino of a larger image, usually intentded to make it easier and faster to manage a group of larger images
     * masonry
       * variable sizes
     * grid layout
     * justified
     * standard 
+
+Icons - easily distinguished as a function
+
+Image Formats
+* JPEG
+  * works well for natural images types (photography)
+  * prone to deteriates as you save and edit often
+  * lightweight compared to PNG
+  * best for larger images
+* PNG
+  * supports transparency
+  * supports 16 million color
+
+
+Animation
+GIFS (graphics interchange format)
+* supports animations
+* supports only 256 colors
+* very light weight
+* animations make it larger
+
+
+
