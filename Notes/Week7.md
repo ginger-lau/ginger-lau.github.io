@@ -61,3 +61,9 @@ flex-direction column
 ```align-items:flex-start;```- puts things at the beginning of cross axis
 ```align-items:flex-end```- puts things at the end of the cross axis
 ```align-items:stretch```- fix the entire cross axis
+
+
+practice: 
+tinyurl.com/wddflexy
+flexboxfroggy.com/
+
