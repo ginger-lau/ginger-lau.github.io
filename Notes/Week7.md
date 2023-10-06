@@ -1,4 +1,5 @@
-## Lecture 5 - Flexbox
+# Lecture 5 
+## Flexbox
 Positing things manually is a pain
 Reviewingi the box model
     * content - picture itself
@@ -67,3 +68,4 @@ practice:
 tinyurl.com/wddflexy
 flexboxfroggy.com/
 
+## Images and Layout
