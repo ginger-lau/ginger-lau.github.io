@@ -8,12 +8,16 @@
     /*  [Problem 2]
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
         are center aligned. */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .dashboard{
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
         (Hint: use padding!) */
+    margin: 25px;
 
 }
 .dashboard--title{
@@ -21,7 +25,9 @@
         FIXME: Use flex to add the correct spacing between the "Dashboard" text and
         the three dot button icon that you added previously. Align them to the 
         center of each item. */
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*TODO: what does "align to the center of each item mean?*/
 }
 .dashboard--classes{
     /*  [Problem 5]
