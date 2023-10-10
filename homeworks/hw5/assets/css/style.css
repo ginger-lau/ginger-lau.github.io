@@ -35,7 +35,7 @@
         Use flexbox to create equal spacing between each box. */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*TODO: Check wrap - what determins 3x2*/
     justify-content: space-around;
 
 
@@ -44,21 +44,25 @@
     /*  [Problem 6]
         FIXME: Set the widths of each class tab to be 31.5% of the width;
         */
-        width: 31%;
+    width: 31%;
     /*
         [Problem 7]
         FIXME: Add 35px to the space under each box. (Choose carefully!) */
-        margin-bottom: 25px;
+    margin-bottom: 25px;
         
 }
+
+.dashboard--classes__box:hover{
 /*  [Problem 8]
     FIXME: when the dashboard--classes__box class is hovered over, add a
 	darker shadow around the edges of the class tab, just like the real
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
+    box-shadow: 4px 10px rgba(0,0,0,0.35); /*TODO CHECK*/
 
 
+}
 
 .dashboard--classes__box__image{
     /*  [Problem 9]
@@ -67,22 +71,30 @@
 
     	(Hint: Make sure you only add it to the top left and top
     	right corners. Simply put, the answer is NOT border-radius: 5px.) */
-
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
+/*CHECK*/
+h2:hover ,h3:hover ,h4:hover{ 
 /*  [Problem 10]
     FIXME: When h2, h3, and h4 are hovered over, add an underline and
     change the cursor to a pointer. Write the selectors and the styles!
 
     Write your own class identifier. */
+    text-decoration: underline;
+    cursor: pointer;
 
 
-
+}
 .notifications__notifs .notifications__notifs--box{
     /*  [Problem 11]
         FIXME: Turn this element into a flex element and use the correct property
         to align the announcement icon and the text box. */
-        
-
-        
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+            
 }
