@@ -24,7 +24,7 @@ body {
 	justify-content: space-around;
 }
 
-.nav--button:hover{ /*TODO:select only 1 */
+p:hover{ /*TODO:select only 1 by applying pseudo selector only to p-tags */
 	cursor: pointer;
 	text-decoration: underline;
 	color: #EE6352;
