@@ -24,6 +24,12 @@ body {
 	justify-content: space-around;
 }
 
+.nav--button:hover{ /*TODO:select only 1 */
+	cursor: pointer;
+	text-decoration: underline;
+	color: #EE6352;
+}
+
 
 
 
