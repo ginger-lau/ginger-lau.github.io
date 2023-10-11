@@ -14,7 +14,14 @@ body {
 #q1-navbar {
 	background: #364156;
 	color: white;
+}
 
+.nav--button{
+	width: 250px; /*Sets the width of the buttons to 250px and then jusifies the 3 buttons to have space around within the 250px box width*/
+	display: flex;
+	flex-direction: row;
+	/*margin-right: 60%;*/
+	justify-content: space-around;
 }
 
 
