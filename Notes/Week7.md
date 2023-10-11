@@ -1,4 +1,5 @@
 # Lecture 5 
+[Slides](https://docs.google.com/presentation/d/1Ft9IdJDduLQjN7XW9guzpYvr3fpEhr3Tt6gfIx-iNZ8/edit?usp=sharing)
 ## Flexbox
 Positing things manually is a pain
 Reviewingi the box model
@@ -111,3 +112,19 @@ SVG (scalable vector graphic)
 * extremely light weight
 * easy to customize with a code editor
 
+Use context-relevant images
+* every image should have a clear and functional purpose
+* avoid using purely decorative images
+* use predicative visuals that have a strong relationship with goals
+* just like any other lemenet of UI, should be tested for useability
+
+Layouts
+* F-layout
+  * scanning - left ot right, top to bottom 
+  * order of importance
+
+Image Resources
+* unsplash
+* noun project
+* font awesome
+* flat icon
