@@ -59,7 +59,7 @@
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
-    box-shadow: 4px 10px rgba(0,0,0,0.35); /*TODO CHECK*/
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.35); /*TODO CHECK*/
 
 
 }
@@ -77,7 +77,7 @@
 
 }
 /*CHECK*/
-h2:hover ,h3:hover ,h4:hover{ 
+.dashboard--classes__box__controls__text:hover{ 
 /*  [Problem 10]
     FIXME: When h2, h3, and h4 are hovered over, add an underline and
     change the cursor to a pointer. Write the selectors and the styles!
