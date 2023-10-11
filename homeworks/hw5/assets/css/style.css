@@ -35,7 +35,7 @@
         Use flexbox to create equal spacing between each box. */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /*TODO: Check wrap - what determins 3x2*/
+    flex-wrap: wrap; /* 3x2 is determined by the width being set to 31%, if set to 25% would be 4-2 */
     justify-content: space-around;
 
 
@@ -59,7 +59,7 @@
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.35); /*TODO CHECK*/
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.35);
 
 
 }
@@ -76,8 +76,8 @@
     border-top-right-radius: 5px;
 
 }
-/*CHECK*/
-.dashboard--classes__box__controls__text:hover{ 
+/*h2:hover,h3:hover,h4:hover { */
+.dashboard--classes__box__controls__text:hover{ /*this class holds h2,h3,h4 similar to real bcourses*/
 /*  [Problem 10]
     FIXME: When h2, h3, and h4 are hovered over, add an underline and
     change the cursor to a pointer. Write the selectors and the styles!
