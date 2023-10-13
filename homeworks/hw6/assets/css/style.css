@@ -150,7 +150,7 @@
 	overflow: hidden;
 	transform-origin: 50% 50%;
 	/* PART 4 - Add spin animation */
-	animation: spin 2s infinite linear;
+	animation: spin 1.2s infinite linear;
 }
 .loader.four .ring.three .arc-container {
 	width: 80%;
@@ -160,7 +160,7 @@
 	overflow: hidden;
 	transform-origin: 50% 50%;
 	/* PART 4 - Add spin animation */
-	animation: spin 1s infinite linear;
+	animation: spin 0.9s infinite linear;
 }
 
 /* TODO: PART 4 - Add spin color shifts for other rings */
@@ -179,7 +179,7 @@
 	position: absolute;
 	background: #10D4C6;
 	/* TODO: PART 4 - Add color animation */
-	animation: colorChange 3s infinite linear;
+	animation: colorChange 2.4s infinite linear;
 }
 
 .loader.four .ring.three .arc {
@@ -188,7 +188,7 @@
 	position: absolute;
 	background: #10D4C6;
 	/* TODO: PART 4 - Add color animation */
-	animation: colorChange 1s infinite linear;
+	animation: colorChange 2.1s infinite linear;
 }
 
 /* TODO: PART 4 - Create spin animation */

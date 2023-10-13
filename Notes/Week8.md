@@ -55,3 +55,29 @@ can also apply for margins
 ```
 
 #### Optional Adjustments
+* speed curve (can refence Easing Functions -ex. easeOutQuart)
+* delay
+* Play #
+* Direction
+
+example:
+```
+potato-head{
+    animat
+}
+```
+
+#### Animation Shorthand
+Follows a convetion. Follow this attribute order
+* name
+* duraction 
+* speedcurve
+
+#### Transitions: Pseudo-Selectors
+Responding to a users action
+Using transition protery to detmerin time, speedcurve, and pseduo-selector to determin sates
+ex. div:hover{rules}
+
+
+# Motion, Flow, Aesthetics
+Animations are best when they do not take away from the content
