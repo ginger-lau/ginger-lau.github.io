@@ -18,7 +18,7 @@
 }
 
 /* PART 1.3 - Delay pulse animation for circle two */
-.loader.one .second{
+.loader.one .second{ /* TODO ASK WHY .second works */
 	animation-delay: .5s;
 }
 
