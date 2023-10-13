@@ -48,11 +48,20 @@
 	border-radius: 15px;
 	background: #F76A4D;
 	/* TODO: PART 2 - Add wave animation */
+	animation: Wave 2s infinite;
 }
 
 /* TODO: PART 2 - Add delays and dot colors */
+.loader.two .second .third{
+	animation-delay: 1s;
+}
 
 /* TODO: PART 2 - Create wave animation */
+@keyframes Wave{
+	0%{translateY:0px ;}
+	50%{translateY:100px ;}
+	100%{translateY:0px ;}
+}
 
 /* Loader three: Flip */
 /* TODO: PART 3 - Style the flip card */
