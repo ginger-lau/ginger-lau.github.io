@@ -97,7 +97,6 @@
 	position: relative;
 	width: 100px;
 	height: 100px;
-	
 }
 
 .loader.four .ring {
@@ -108,15 +107,18 @@
 	top: 50%; left: 50%;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
-	animation: spin 2s infinite;
+	margin: auto;
+
 }
 .loader.four .ring.two {
 	width: 80%;
 	height: 80%;
+
 }
 .loader.four .ring.three {
 	width: 60%;
 	height: 60%;
+
 }
 
 .loader.four .ring .mask {
@@ -127,9 +129,9 @@
 	top: 50%; left: 50%;
 	transform: translate(-50%, -50%);
 	background: #E5F1F7;
-	margin: auto;
-}
 
+}
+/* TODO: PART 4 - Add spin shifts for other rings */
 .loader.four .ring .arc-container {
 	width: 80%;
 	height: 100%;
@@ -137,28 +139,69 @@
 	left: 10%;
 	overflow: hidden;
 	transform-origin: 50% 50%;
-	/* TODO: PART 4 - Add spin animation */
+	/* PART 4 - Add spin animation */
+	animation: spin 1s infinite linear;
+}
+.loader.four .ring.two .arc-container {
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	left: 10%;
+	overflow: hidden;
+	transform-origin: 50% 50%;
+	/* PART 4 - Add spin animation */
+	animation: spin 2s infinite linear;
+}
+.loader.four .ring.three .arc-container {
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	left: 10%;
+	overflow: hidden;
+	transform-origin: 50% 50%;
+	/* PART 4 - Add spin animation */
+	animation: spin 1s infinite linear;
 }
 
-/* TODO: PART 4 - Add spin shifts for other rings */
-
+/* TODO: PART 4 - Add spin color shifts for other rings */
 .loader.four .ring .arc {
 	width: 100%;
 	height: 50%;
 	position: absolute;
 	background: #10D4C6;
 	/* TODO: PART 4 - Add color animation */
+	animation: colorChange 2.2s infinite linear;
 }
 
-/* TODO: PART 4 - Add spin color shifts for other rings */
+.loader.four .ring.two .arc {
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	background: #10D4C6;
+	/* TODO: PART 4 - Add color animation */
+	animation: colorChange 3s infinite linear;
+}
+
+.loader.four .ring.three .arc {
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	background: #10D4C6;
+	/* TODO: PART 4 - Add color animation */
+	animation: colorChange 1s infinite linear;
+}
 
 /* TODO: PART 4 - Create spin animation */
 @keyframes spin {
 	0% {transform: rotate(0deg)}
 	50% {transform: rotate(180deg)}
 	100% {transform: rotate(360deg)}
-
-	
 }
 
 /* TODO: PART 4 - Create spin color animation */
+@keyframes colorChange {
+	0%,100% {background-color: #7910D4;}
+	25% {background-color: #10D4C6;}
+	50% {background-color: #3068CD;}
+	
+}
