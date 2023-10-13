@@ -48,7 +48,7 @@
 	border-radius: 15px;
 	background: #F76A4D;
 	/* TODO: PART 2 - Add wave animation */
-	animation: dotTyping 2s infinite;
+	animation: Wave 2s infinite;
 }
 
 /* TODO: PART 2 - Add delays and dot colors */
@@ -62,10 +62,16 @@
 }
 
 /* TODO: PART 2 - Create wave animation */
-@keyframes dotTyping{
-	0%{translateY:0px;}
-	50%{translateY:100px;}
-	100%{translateY:0px;}
+@keyframes Wave{
+	0%{
+		top:100px;
+	}
+	50%{
+		top: 0px;
+	}
+	100%{
+		top:0px;
+	}
 }
 
 /* Loader three: Flip */
