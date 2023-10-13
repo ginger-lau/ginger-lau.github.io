@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	background: #eeeeee;
+	font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+	background: #364156;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	width: 250px;
+	height: 50px;
+	align-items: center;
+
+
+}
