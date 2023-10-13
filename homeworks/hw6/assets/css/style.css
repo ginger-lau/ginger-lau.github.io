@@ -13,17 +13,16 @@
 	top: 0;
 	left: 0;
 	border-radius: 50px;
-	/* TODO: PART 1.2 - Add pulse animation */
+	/* PART 1.2 - Add pulse animation */
 	animation: Pulse 2s infinite;
 }
 
-/* TODO: PART 1.3 - Delay pulse animation for circle two */
-.loader.one .circle {
-	animation: pulse 2s infinite;
-	animation-delay: 0.5s;
+/* PART 1.3 - Delay pulse animation for circle two */
+.loader.one .second.circle {
+	animation-delay: .5s;
 }
 
-/* TODO: PART 1.1 - Create pulse animation */
+/* PART 1.1 - Create pulse animation */
 @keyframes Pulse {
 	0%{
 		opacity: 1;
