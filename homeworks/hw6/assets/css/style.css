@@ -48,38 +48,52 @@
 	border-radius: 15px;
 	background: #F76A4D;
 	/* TODO: PART 2 - Add wave animation */
-	animation: Wave 2s infinite;
+	animation: Wave 2s ease-in-out infinite;
 }
 
 /* TODO: PART 2 - Add delays and dot colors */
-.loader.two:nth-child(2){
+
+.loader.two .second.dot{ /*TODO: ask why .loader.two:nth-child(2) doesnt work */
+	background-color: #4db1f7;
 	animation-delay: .25s;
-	color: #4db1f7;
 }
-.loader.two:nth-child(3){
-	color: #7DE76A;
-	animation-delay: .25s;
+
+.loader.two .third.dot{
+	background-color: #7DE76A;
+	animation-delay: .5s;
 }
 
 /* TODO: PART 2 - Create wave animation */
 @keyframes Wave{
-	0%{
-		top:100px;
-	}
-	50%{
-		top: 0px;
-	}
-	100%{
-		top:0px;
-	}
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-50px);}
+	100%{transform: translateY(0px);}
 }
 
 /* Loader three: Flip */
 /* TODO: PART 3 - Style the flip card */
+.loader.three {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 110px;
+}
 
 /* TODO: PART 3 - Add flip animation to flip card */
+.loader.three .flip-tile{
+	height: 100px;
+	width: 100px;
+	background: #F98527;	
+	animation: flip 2.6s infinite;
+}
 
 /* TODO: PART 3 - Write flip animation */
+@keyframes flip {
+	0% {transform: perspective(200px) rotateX(180deg) rotateY(0)}
+	50% {transform: rotateX(0) rotateY(0)}
+	100% {transform: perspective(200px) rotateX(0) rotateY(-179deg)}
+}
 
 /* Loader four: Spin */
 .loader.four .rings {
