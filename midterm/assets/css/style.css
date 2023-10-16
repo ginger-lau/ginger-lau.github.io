@@ -12,7 +12,7 @@
 body {
 	margin: 0;
 	background: #FEFEE3;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lexend', sans-serif;
 }
 
 .h1{
@@ -23,18 +23,80 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-
 }
 .h2{
-
+	color: red;
+	text-align: center;
+	font-family: Lexend;
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 .h3{
-
+	color: var(--White, #FEFEE3);
+	text-align: center;
+	font-family: Lexend;
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 .p{
-
+	color: var(--White, #FEFEE3);
+	text-align: center;
+	font-family: Lexend;
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .specials{
 	
+}
+
+.welcome-block{
+	display: flexbox;
+	flex-direction: column;
+	position: relative;
+}
+
+.rect{
+	width: 200px;
+	height: 300px;
+	border-radius: 50px;
+	background: #a84909;
+	margin-left: 20px;
+}
+
+.preview{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.special-previews{
+	display: flex;
+	flex-direction: row;
+}
+.specials{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+.HoursAndLocations{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
 }
