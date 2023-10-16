@@ -64,6 +64,9 @@ p{
 	line-height: normal;
 }
 
+a:link{
+	text-decoration: none;
+}
 
 .welcome-image{
 	mask-image: green 80%;
@@ -97,6 +100,7 @@ p{
 	border-radius: 50px;
 	background: #a84909;
 	margin-left: 20px;
+	overflow:hidden
 }
 .rect:hover{
 	box-shadow: 0px 4px 10px #2C6E49;
