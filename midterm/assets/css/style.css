@@ -58,10 +58,11 @@ p{
 	color: black;
 	text-align: center;
 	font-family: Cutive;
-	font-size: 24px;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: 1.5;
+	word-spacing: 2px;
 }
 
 a:link{
