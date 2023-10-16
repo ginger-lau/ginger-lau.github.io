@@ -37,18 +37,19 @@ h2{
 	line-height: normal;
 }
 h3{
+	color:#D32E05;
 	text-align: center;
-	font-family: Lexend;
-	font-size: 128px;
+	font-family: Krona One;
+	font-size: 40px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 }
 p{
-	color: var(--White, #FEFEE3);
+	color: black;
 	text-align: center;
 	font-family: Cutive;
-	font-size: 128px;
+	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -106,6 +107,6 @@ p{
 	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
 }
