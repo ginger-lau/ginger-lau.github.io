@@ -16,6 +16,13 @@ body {
 }
 
 .h1{
+	color: var(--White, #FEFEE3);
+	text-align: center;
+	font-family: Lexend;
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 
 }
 .h2{
