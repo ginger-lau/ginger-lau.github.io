@@ -9,7 +9,7 @@
 	align-items: center;
 }
 
-body {
+body{
 	margin: 0;
 	background: #FEFEE3;
 	font-family: 'Lexend', sans-serif;
@@ -52,15 +52,14 @@ body {
 	line-height: normal;
 }
 
-.specials{
-	
+
+.welcome-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.welcome-block{
-	display: flexbox;
-	flex-direction: column;
-	position: relative;
-}
 
 .rect{
 	width: 200px;
