@@ -10,7 +10,7 @@
 }
 
 #nav-button:hover{
-	color: aqua;
+	color: #D32E05;
 	cursor: pointer;
 }
 
@@ -93,6 +93,9 @@ p{
 	border-radius: 50px;
 	background: #a84909;
 	margin-left: 20px;
+}
+.rect:hover{
+	box-shadow: 0px 4px 10px #2C6E49;
 }
 
 .preview{
