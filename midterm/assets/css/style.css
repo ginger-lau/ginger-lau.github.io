@@ -89,7 +89,7 @@ a:link{
 .welcome-text{
 	color: #FEFEE3;
 	position: absolute;
-	top: 30%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 	/*background-color: rgba(44, 110, 73, .5);*/
