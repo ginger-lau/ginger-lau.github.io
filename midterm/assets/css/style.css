@@ -55,7 +55,7 @@ h2{
 	line-height: normal;
 }
 h3{
-	
+	color: #2C6E49;
 	text-align: center;
 	font-family:Krona One;
 	font-size: 40px;
@@ -156,7 +156,8 @@ a:link{
 	filter: blur(5px);
 	background-color: #2C6E49;
 }
-.order-container{
+
+.order-text{
 	color: #FEFEE3;
 	position: absolute;
 	top: 40%;
@@ -166,15 +167,18 @@ a:link{
 	text-shadow:#2C6E49 1px 0 10px;
 }
 
-.appetizers-preview{
+.appetizers-previews{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .MeatAndVeggies{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .meatAndPoultry{
@@ -186,9 +190,17 @@ a:link{
 	margin:15px 15px 15px 15px;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 .desserts-previews{
 	margin:15px 15px 15px 15px;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+}
+
+.cart-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: ;
 }
