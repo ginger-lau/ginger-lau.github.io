@@ -21,6 +21,8 @@
 #nav-button:hover{
 	color: #D32E05;
 	cursor: pointer;
+	text-shadow:#FEE69C 1px 0 10px;
+	box-shadow:#FEE69C 1px 0 10px;
 }
 
 nav-button{
@@ -141,6 +143,13 @@ a:link{
 	flex-direction: column;
 }
 
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
 .HoursAndLocations{
 	margin-top: 50px;
 	margin-bottom: 100px;
@@ -199,8 +208,3 @@ a:link{
 	justify-content: center;
 }
 
-.cart-block{
-	display: flex;
-	flex-direction: column;
-	justify-content: ;
-}
