@@ -112,6 +112,7 @@ a:link{
 	height: 300px;
 	border-radius: 50px;
 	background: #a84909;
+	margin-left: 20px;
 	overflow:hidden
 }
 .rect:hover{
