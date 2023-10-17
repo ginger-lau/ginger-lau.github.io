@@ -16,13 +16,12 @@
 
 #nav-bar a:hover{
 	color:#D32E05;
+	text-shadow:#FEE69C 1px 0 10px;
 }
 
 #nav-button:hover{
 	color: #D32E05;
 	cursor: pointer;
-	text-shadow:#FEE69C 1px 0 10px;
-	box-shadow:#FEE69C 1px 0 10px;
 }
 
 nav-button{
@@ -158,6 +157,14 @@ a:link{
 	justify-content: space-evenly;
 	align-items: center;
 	margin-bottom: 100px;
+}
+
+ul{ 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	word-spacing: 2px;
 }
 
 /*------ ORDER PAGE--------*/
