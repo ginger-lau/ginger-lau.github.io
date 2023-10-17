@@ -112,7 +112,6 @@ a:link{
 	height: 300px;
 	border-radius: 50px;
 	background: #a84909;
-	margin-left: 20px;
 	overflow:hidden
 }
 .rect:hover{
@@ -215,3 +214,23 @@ ul{
 	justify-content: center;
 }
 
+/*------ CART PAGE--------*/
+.cart-addition{
+	display: flex;
+	flex-direction: row;
+}
+
+.checkout{
+	height: 50px;
+	display: block;
+	background-color: #D32E05;
+	margin: -- 45% 50px 45%;
+	padding: 2px 10px 2px 10px;
+	position: absolute;
+  	top: 90%; 
+  	left: 90%; 
+}
+.checkout:hover{
+	cursor: pointer;
+	background-color: aqua;
+}
