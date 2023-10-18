@@ -25,7 +25,7 @@ body, html {
     background: #f7f5f2;
     position: relative;
 }
-
+/*
 @keyframes spin {
     0%{rotate:0deg; border-radius: 0px;}
     10%{rotate:18deg; border-radius: 5px;}
@@ -38,8 +38,13 @@ body, html {
     80%{rotate:144deg;border-radius: 40px}
     90%{rotate:162deg;border-radius: 45px}
     100%{rotate:180deg;border-radius: 50px}
+}*/
+/*TODO:ASK ABOUT animation-fill-mode */
+@keyframes spin {
+    from {rotate:0deg; border-radius: 0px;}
+    
+    to {rotate:180deg;border-radius: 50px;}
 }
-
 .button:hover{
-    animation: spin .45s;
+    animation: spin .45s forwards;
 }
