@@ -4,7 +4,7 @@
     display: inline-block;
     height: 50px;
     width: 50px;
-    background: black;
+    /* background: black; -not needed- */
     margin: 12px;
     cursor: pointer;
     opacity: 0.7;
@@ -24,4 +24,14 @@ body, html {
     width: 100%;
     background: #f7f5f2;
     position: relative;
+}
+
+@keyframes spin {
+    0%{rotate:0deg;}
+    10%{rotate:36deg;}
+    20%{rotate:72deg;}
+}
+
+.button:hover{
+    animation: spin 43s infinite;
 }
