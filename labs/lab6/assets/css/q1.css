@@ -27,11 +27,19 @@ body, html {
 }
 
 @keyframes spin {
-    0%{rotate:0deg;}
-    10%{rotate:36deg;}
-    20%{rotate:72deg;}
+    0%{rotate:0deg; border-radius: 0px;}
+    10%{rotate:18deg; border-radius: 5px;}
+    20%{rotate:36deg; border-radius: 10px;}
+    30%{rotate:54deg; border-radius: 15px;}
+    40%{rotate:72deg; border-radius: 20px;}
+    50%{rotate:90deg; border-radius: 25px;}
+    60%{rotate:108deg; border-radius: 30px}
+    70%{rotate:126deg;border-radius: 35px}
+    80%{rotate:144deg;border-radius: 40px}
+    90%{rotate:162deg;border-radius: 45px}
+    100%{rotate:180deg;border-radius: 50px}
 }
 
 .button:hover{
-    animation: spin 43s infinite;
+    animation: spin .45s;
 }
