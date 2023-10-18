@@ -1,5 +1,20 @@
 /* ADD ANY LINES OF CODE YOU DEEM NECESSARY FOR QUESTION 2*/
+@keyframes bounce{
+    from {transform: translateY(-200px);} /*Starts at bottom*/
+    to {transform: translateY(30px);}
+}
 
+@keyframes shadowOpacityandSize{
+    0% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+  
 #ball {
     display: block;
     height: 150px;
@@ -8,6 +23,8 @@
     background: #fd6c2d;
     z-index: 1;
     transform: translateY(-200px);
+
+    animation: bounce 0.45s cubic-bezier(0.42,0.7,0.5) none infinite alternate;
 }
 
 #shadow {
@@ -32,3 +49,4 @@ body, html {
     background: #f7f5f2;
     position: relative;
 }
+
