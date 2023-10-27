@@ -74,5 +74,42 @@ alert(greeting)
 Result "howdy nicholas!"
 
 
+###### Functions 
+A bit analogous to math - a fucntion takes values as input, does some functions, and then outputs a value. This is useful for repeitive use
+~~~
+function square(x){
+    return x*x;
+}
+~~~
 
+###### Functions with multiple parameters
+calls to the function must have the same number of parameters
+~~~
+functio linear(a,x,b){
+    return (a*x+b);
+}
+~~~
+
+###### Functions in functions 
+~~~
+function double(n){
+    return 2*n;
+}
+
+// function returns double plust 1
+functiondoubleplusone(x){
+    return double(x) +1;
+}
+
+let firstNumber = double(2);
+let second number --------MISSING
+~~~
+
+###### Using functions 
+Functions do not always have to return a value
+~~~
+function double(n){
+    alert(2*n);
+}
+~~~
 
