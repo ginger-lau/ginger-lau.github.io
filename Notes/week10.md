@@ -42,3 +42,37 @@ examples:
 
 * when the user clicks on the up arrow, then increase the number
 
+## Todays Concepts
+* vairables
+* console.log
+
+#### An introduction to Variables
+There are two key parts to creating variables - declaration and initialization 
+* **Declaration**- tells the program about the existence of some entity
+* **Initialization** assigns a value (number.text/etc.) to that entitiy
+  
+  ex. in math declatioation is let k and initialization is be 5
+
+###### Variables 
+```let name = "joe";``` - can attach strings
+```let name = 20;``` - can attach numbers
+
+Scoping: Var, let, const
+* const's cant be resassined
+* we will just be using let in this class
+
+###### String concatenation
+we can add strings 
+~~~
+let name = "nicholas";
+let greeting = "howdy " + name + "!";
+console.log(greeting)
+///OR
+alert(greeting)
+~~~
+
+Result "howdy nicholas!"
+
+
+
+
