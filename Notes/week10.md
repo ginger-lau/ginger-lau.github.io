@@ -113,3 +113,18 @@ function double(n){
 }
 ~~~
 
+## Design HCD
+#### User Research Method
+* interviews: anecdotes, experiences, and focus
+* contexual inquiry
+* card sorting
+* desk research
+* ethnographty 
+
+#### HMW
+after conducting research build a how might we
+
+#### Ideation 
+Synthesize user research 
+* are there clear groups of users with simlar experienes?
+  * maker personas: characters represeting each group
