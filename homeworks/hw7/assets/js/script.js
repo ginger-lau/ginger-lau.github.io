@@ -17,6 +17,6 @@ function createSentence(num, noun){
 }
 
 function getRandomNum(max){
-    randNum = Math.random() * max; // Math.random() gives [1,0] therefore multiply by max to get a max rand value
+    randNum = Math.random() * max; // Math.random() gives value between [1,0) therefore multiply by max to get a max rand value
     return randNum;
 }
