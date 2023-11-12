@@ -68,5 +68,13 @@ h1 {
 	font-size: 12px;
 	color: #ccc;
 }
+/* Problem 1.2 */
+/* Create a class in style.css called .hidden, and give it one rule, display: none; */
+.hidden{
+	display: none;
+}
+
+
 
 /* Problem 3.1 */
+
