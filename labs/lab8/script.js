@@ -3,5 +3,5 @@ function toggleTheme(){
  body.classList.toggle("dark-mode");
 }
 
-let button = document.getElementById("toggleButton");
-button.onclick = toggleTheme;
+let buttonVariable = document.getElementById("toggleButton");
+buttonVariable.onclick = toggleTheme;
