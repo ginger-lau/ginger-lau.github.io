@@ -106,19 +106,19 @@ li small {
 ------------------------------ */
 
 .dark-mode {
-  background: #000;
-  color: yellow;
+  background: #352F44; /*dark purple*/
+  color: #FAF0E6; /*beige*/
 }
 
 .dark-mode .container {
-  background: #422;
+  background:#5C5470; /*purple*/
 }
 
 .dark-mode h1 {
-  color: green;
+  color: #B9B4C7;/*light purple*/
 }
 
 .dark-mode li:hover {
-  color: black;
-  background: #BACCC2;
+  color:#352F44;  /*dark purple*/
+  background: #BACCC2; /*mint*/ 
 }
