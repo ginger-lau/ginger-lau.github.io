@@ -119,5 +119,6 @@ li small {
 }
 
 .dark-mode li:hover {
-  
+  color: black;
+  background: #BACCC2;
 }
