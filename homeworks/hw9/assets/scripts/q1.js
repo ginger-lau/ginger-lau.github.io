@@ -1,7 +1,5 @@
 
-//
 // Part 1: Code setBackgroundColor() so the background color of #q1-container changes to the color specified
-//
 
 /**
  * Sets the background color of #q1-container
@@ -10,16 +8,12 @@
  */
 function setBackgroundColor(color) {
     // TODO: Get the element with the id "q1-container" and set its background color to the input color
-
-
-
-
-
+    let bkgnd = document.getElementById("q1-container");
+    bkdng.style.BackgroundColor = color;
 }
 
-//
+
 // Part 2: Code the function redButtonClicked() and make the browser run the function for you when #q1-btn-red is clicked
-//
 
 // For the red button
 // Use the color #EF476F, or change it up to your liking
@@ -30,10 +24,8 @@ function setBackgroundColor(color) {
  */
 function redButtonClicked() {
     // TODO: Use the setBackgroundColor() to set the background color to #EF476F (or another color of your choice)
-
-
-
-
+    let red = document.getElementById("q1-btn-red")
+    red.onclick = setBackgroundColor("#EF476F")
 
 }
 
