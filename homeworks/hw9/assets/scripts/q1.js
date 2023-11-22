@@ -9,7 +9,7 @@
 function setBackgroundColor(color) {
     // TODO: Get the element with the id "q1-container" and set its background color to the input color
     let bkgnd = document.getElementById("q1-container");
-    bkdng.style.BackgroundColor = color;
+    bkgnd.style.BackgroundColor = color;
 }
 
 
@@ -34,9 +34,8 @@ document.getElementById("q1-btn-red").onclick = redButtonClicked;
 
 // After you finish part 1 & 2, the clicking the red button should turn the background color red!
 
-//
+
 // Part 3: Program the yellow button similar to what you did with the red button
-//
 
 // For the yellow button
 // Use the color #FFD166, or change it up to your liking
