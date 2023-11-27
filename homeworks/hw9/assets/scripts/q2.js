@@ -12,6 +12,7 @@ function unhideLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.remove('hidden');
 
 	// TODO: Remove the .hidden class from the div with the given id
+	document.getElementById('lightboxID').classList.remove('hidden');
 
 }
 
