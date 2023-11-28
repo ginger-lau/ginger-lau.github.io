@@ -23,7 +23,7 @@ function unhideLightbox(lightboxID) {
 /**
  * Calls unhideLightbox with the id of the first lightbox
  */
-function unhideLightbox1() {
+function unhideLightbox1(){
 	// TODO: Look in q2.html to see what the id for the lightbox div for the first picture, and call unhideLightbox
 	unhideLightbox('doggo1');
 }
