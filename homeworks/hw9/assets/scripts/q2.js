@@ -26,8 +26,9 @@ function unhideLightbox(lightboxID) {
  */
 function unhideLightbox1() {
 	// TODO: Look in q2.html to see what the id for the lightbox div for the first picture, and call unhideLightbox
-	let firstPic = document.getElementById('doggo1');
-	unhideLightbox(firstPic)
+	//let firstPic = document.getElementById('doggo1');
+	//unhideLightbox(firstPic)
+	unhideLightbox('doggo1')
 }
 
 // TODO: Set the browser to run the function unhideLightbox1 when someone clicks #picture-1
@@ -36,8 +37,9 @@ document.getElementById("picture-1").onclick = unhideLightbox1;
 // TODO: do the same for #picture-2, write a function and then make it run on click
 function unhideLightbox2(){
 	//look into q2.html to get id for lightbox div of 2nd pciture and call unhideLightbox
-	let secondPic = document.getElementById('doggo2');
-	unhideLightbox(secondPic)
+	//let secondPic = document.getElementById('doggo2');
+	//unhideLightbox(secondPic)
+	unhideLightbox(doggo2)
 }
 //Run functino unhideLightbox2 when someone clicks #picture-2
 document.getElementById("picture-2").onclick = unhideLightbox2
@@ -47,8 +49,9 @@ document.getElementById("picture-2").onclick = unhideLightbox2
 // TODO: do the same for #picture-3, write a function and then make it run on click
 function unhideLightbox3(){
 	//look into q2.html to get id for lightbox div of 3rd pciture and call unhideLightbox
-	let thirdPic = document.getElementById('doggo3');
-	unhideLightbox(thirdPic)
+	//let thirdPic = document.getElementById('doggo3');
+	//unhideLightbox(thirdPic)
+	unhideLightbox('doggo3')
 }
 //Run functino unhideLightbox3 when someone clicks #picture-3
 document.getElementById("picture-3").onclick = unhideLightbox3
