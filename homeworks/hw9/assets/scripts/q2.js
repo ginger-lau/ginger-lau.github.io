@@ -12,7 +12,7 @@ function unhideLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.remove('hidden');
 
 	// TODO: Remove the .hidden class from the div with the ***given id***
-	document.getElementById('lightboxID').classList.remove('hidden');
+	document.getElementById(lightboxID).classList.remove('hidden');
 
 }
 
@@ -28,7 +28,7 @@ function unhideLightbox1() {
 	// TODO: Look in q2.html to see what the id for the lightbox div for the first picture, and call unhideLightbox
 	//let firstPic = document.getElementById('doggo1');
 	//unhideLightbox(firstPic)
-	unhideLightbox('doggo1')
+	unhideLightbox("doggo1")
 }
 
 // TODO: Set the browser to run the function unhideLightbox1 when someone clicks #picture-1
@@ -39,7 +39,7 @@ function unhideLightbox2(){
 	//look into q2.html to get id for lightbox div of 2nd pciture and call unhideLightbox
 	//let secondPic = document.getElementById('doggo2');
 	//unhideLightbox(secondPic)
-	unhideLightbox(doggo2)
+	unhideLightbox("doggo2")
 }
 //Run functino unhideLightbox2 when someone clicks #picture-2
 document.getElementById("picture-2").onclick = unhideLightbox2
@@ -51,7 +51,7 @@ function unhideLightbox3(){
 	//look into q2.html to get id for lightbox div of 3rd pciture and call unhideLightbox
 	//let thirdPic = document.getElementById('doggo3');
 	//unhideLightbox(thirdPic)
-	unhideLightbox('doggo3')
+	unhideLightbox("doggo3")
 }
 //Run functino unhideLightbox3 when someone clicks #picture-3
 document.getElementById("picture-3").onclick = unhideLightbox3
@@ -68,7 +68,7 @@ function closeLightbox(lightboxID) {
 	document.getElementById('lightbox-overlay').classList.add('hidden');
 
 	// TODO: Add the .hidden class to the div with the given id
-	document.getElementById('lightboxID').classList.add('hidden');
+	document.getElementById(lightboxID).classList.add('hidden');
 
 }
 
