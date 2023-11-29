@@ -2,7 +2,7 @@
 let carouselWidth = 400; 
 
 /* Part 2.1: Get the elements */
-let prevButton = document.getElementById("botton-previous");
+let prevButton = document.getElementById("button-previous");
 let nextButton = document.getElementById("button-next");
 let imageRow = document.getElementById("carousel-image-row");
 
