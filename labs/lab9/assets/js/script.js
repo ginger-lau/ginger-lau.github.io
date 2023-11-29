@@ -13,6 +13,7 @@ let imageNum = 0;
 function showNextImage() {
 	// change imageNum
 	imageNum = imageNum + 1;
+	checkControls();
 	// how many pixels from the left should imageRow now be?
 	let leftMarginVal = -(imageNum * carouselWidth);
 	// change css for imageRow
@@ -27,14 +28,15 @@ nextButton.onclick = showNextImage;
 function showPrevImage() {
 	// change imageNum
 	imageNum = imageNum - 1;
+	checkControls();
 	// how many pixels from the left should imageRow now be?
-	let leftMarginVal = imageNum * carouselWidth;
+	let leftMarginVal = -(imageNum * carouselWidth);
 	// change css for imageRow
 	imageRow.style.left = leftMarginVal + "px";
 }
 
 /* Part 2.6: Change the onclick property for the prev button */
-prevButton.onclick = showPrevImage
+prevButton.onclick = showPrevImage;
 
 /* Total number of images */
 let totalImages = document.getElementsByClassName("carousel-image").length;
@@ -46,21 +48,20 @@ function checkControls() {
 	// In the parentheses below, check what imageNum is equal to.
 	if (imageNum === 0) {
 		// What should happen if it's the first image?
-		//document.getElementById("button-next").classList.remove("hidden");
-		//nextButton.classList.remove("hidden");
 		//document.getElementById("button-previous").classList.add("hidden");
 		prevButton.classList.add("hidden");
 	}
 	else if (prevButton.classList.contains("hidden")) {
 		// otherwise, what should happen?
-		//document.getElementById("button-next").classList.remove("hidden");
 		//document.getElementById("button-previous").classList.remove("hidden");
 		prevButton.classList.remove("hidden");
 	}
 	// This if-statement checks if we're at the last image.
 	// In the parentheses below, check what imageNum is equal to.
-	if (imageNum === totalImages) {
+	if (imageNum === totalImages - 1 ) {
 		// What should happen it's the last image?
+		//document.getElementById("button-next").classList.remove("hidden");
+		//nextButton.classList.remove("hidden");
 		nextButton.classList.add("hidden");
 	}
 	else if (nextButton.classList.contains("hidden")) {
