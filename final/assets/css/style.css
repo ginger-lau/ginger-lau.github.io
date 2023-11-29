@@ -80,10 +80,7 @@
     display:inline-flex;
     align-items: center;
     justify-content: center;
-
 }
-
-
 
 body {
 	background-color: #FBFAF5;
@@ -131,16 +128,15 @@ h2{
 }
 
 .profile:hover{
-    animation: flip 2.6s;
+    animation: flip 1.5s;
+    animation-delay:0.25s;
+    animation-fill-mode: forwards;
 }
 
-/* TODO: PART 3 - Write flip animation */
 @keyframes flip{
-	0% {transform: perspective(200px) rotateX(0) rotateY(0)}
-	50% {transform: rotateX(0) rotateY(0)}
-	100% {transform: perspective(200px) rotateX(0) rotateY(-179)}
+	0% {transform: perspective(1000px) rotateX(0) rotateY(0)}
+	100% {transform: perspective(1000px) rotateX(0) rotateY(180deg)}
 }
-
 
 
 #profile-pic{
@@ -160,10 +156,7 @@ h2{
     background-color: #4885ed ;
     border-radius: none;
 
-    
-
    /* box-shadow: 0 0  8px 10px rgba(251,250,245,1) inset;*/
-
 }
 
 
@@ -185,4 +178,107 @@ h2{
 	100%{
 		opacity: 0;
 		transform: scale(1.5);}
+}
+
+/*--------- Project Page Content ----*/
+h3{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 70px;
+}
+h4{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 100;
+    font-size: 25px;
+}
+h5{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 0;
+    margin-left: 5%;
+}
+h6{
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 0;
+    margin-left: 5%;
+}
+.projects{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10% ;
+    line-height: 0;
+}
+
+.cards{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card_box{
+    margin-bottom: 50px;
+    border-radius:5px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.card_desc{
+    padding:1%;
+    margin-top: 0;
+}
+
+#cards-first-half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cards-second-half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#toggle-button {
+	padding: 11px 31px;
+	margin-left: 20px;
+	border: 3px solid #F4c20d;
+	border-radius: 31px;
+	font-size: 12px;
+	color: #FBFAF5;
+	text-transform: uppercase;
+	background: #604081
+}
+
+#toggle-button:hover {
+	font-weight: bold;
+	font-size: 13px;
+	color: #F4c20d;
+	border-color: #4885ed;
+    background-color: #58a55d;
+}
+
+#toggle-button:focus {
+	outline: none;
+}
+
+#toggle-button:active {
+	border-color: #F4c20d;
+	font-weight: normal;
+	font-size: 12px;
+	color: #FBFAF5;
+}
+
+.hidden{
+	display: none;
 }
