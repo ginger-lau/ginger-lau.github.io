@@ -14,7 +14,7 @@ function showNextImage() {
 	// change imageNum
 	imageNum = imageNum + 1;
 	// how many pixels from the left should imageRow now be?
-	let leftMarginVal = -(imageNum * carouselWidth);
+	let leftMarginVal = -imageNum * carouselWidth;
 	// change css for imageRow
 	imageRow.style.left = leftMarginVal + "px";
 
