@@ -230,7 +230,7 @@ h6{
 
 .card_box{
     margin-bottom: 50px;
-    border-radius:5px;
+    border-radius:40px;
     box-shadow:0 2px 5px rgba(0,0,0,0.3);
 }
 
@@ -247,7 +247,6 @@ h6{
 }
 
 #cards-second-half{
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -255,20 +254,19 @@ h6{
 
 #toggle-button {
 	padding: 11px 31px;
-	margin-left: 20px;
-	border: 3px solid #F4c20d;
+    margin-left: 80%;
+	border: px solid #F4c20d;
 	border-radius: 31px;
-	font-size: 12px;
+	font-size: 24px;
 	color: #FBFAF5;
 	text-transform: uppercase;
-	background: #604081
-    position:relative;
-    
+	background: #604081;
+    position: relative;
 }
 
 #toggle-button:hover {
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 28px;
 	color: #F4c20d;
 	border-color: #4885ed;
     background-color: #58a55d;
@@ -282,7 +280,7 @@ h6{
 #toggle-button:active {
 	border-color: #F4c20d;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 24px;
 	color: #4885ed;
 }
 
