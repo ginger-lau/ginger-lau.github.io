@@ -1,37 +1,120 @@
-.navbar{
+.header{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 10px 5%;
+    width: auto;
+    height: 120px;
+
     display: flex;
     flex-direction: row;
-}
-.navbar a{
-    font-family: 'Inter';
-    font-weight: Bold;
-    font-size: 28px;
-	color: #000000;
+
+    /*min-width: 1528px;*/
 }
 
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 10%;
-    display: flex;
-    justify-content: space-between;   
-    align-items: center; 
-}
-
-body {
-	background-color: #FBFAF5;
-	
-}
-
-
-.logo{
+#logo{
+ 
     align-self: flex-start;
     color: #000000;
     font-family: "Jua";
-    font-size: 100px;
-    text-align: center;
+    font-size: 120px;
+    margin-left: 5%;
+    display: inline-block;
+
+}
+
+
+.navbar{
+    position: fixed;
+    margin-right: 0px;
+    margin-top: -80px;
+    margin-left: 15%;
+
     
+}
+
+
+
+.navbar a{
+    color: #FBFAF5;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 28px;
+
+}
+
+.navbar a:hover{
+    color: #F4c20d;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.blackboxFrame{
+    background-color: #000000;
+    border-radius: 20px;
+
+    width: fit-content;
+    margin-left: 60px;
+    padding: 5px 30px;
+    position: relative;
+
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.greyboxFrame{
+    background-color: gray;
+    border-radius: 20px;
+
+    width: fit-content;
+    margin-left: 60px;
+    padding: 5px 30px;
+    position: relative;
+    overflow: hidden;
+
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+body {
+	background-color: #FBFAF5;
+}
+
+/*--------- Home Page Content ----*/
+.main-text{
+    margin-top: 100px;
+    font-family: 'Inter';
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.main-text a{
+    color: #000000;
+}
+
+.main-text a:hover{
+    color: #58a55d;
+    cursor: pointer;
+
+}
+
+h1{
+    color: #000000;
+    font-size: 50px;
+}
+
+h2{
+    color: #000000;
+    font-size: 28px;
+
 }
