@@ -2,7 +2,7 @@
     position: fixed;
     margin-top: 0;
     margin-left: 0;
-    padding: 10px 5%;
+    padding: 5px 5%;
     width: auto;
     height: 120px;
 
@@ -25,13 +25,11 @@
 
 
 .navbar{
-
     margin-right: 0px;
     margin-top: -80px;
     margin-left: 15%;
 
 }
-
 
 
 .navbar a{
