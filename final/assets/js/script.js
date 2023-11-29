@@ -14,11 +14,11 @@ projectsText.style.opacity = 0;
 
 window.addEventListener('load', () => {
   const fadeEffect = setInterval(function () {
-    // If fully opaque, clear interval 
+  
     if(projectsText.style.opacity == 1){
       clearInterval(fadeEffect);
     }
-    // Otherwise, increase opacity
+   
     projectsText.style.opacity = +projectsText.style.opacity + 0.1; 
   }, 50);
 })
