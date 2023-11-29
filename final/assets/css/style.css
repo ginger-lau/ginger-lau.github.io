@@ -226,6 +226,8 @@ h6{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.cards:hover{cursor: pointer;}
+
 .card_box{
     margin-bottom: 50px;
     border-radius:5px;
@@ -245,6 +247,7 @@ h6{
 }
 
 #cards-second-half{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -259,6 +262,8 @@ h6{
 	color: #FBFAF5;
 	text-transform: uppercase;
 	background: #604081
+    position:relative;
+    
 }
 
 #toggle-button:hover {
@@ -267,6 +272,7 @@ h6{
 	color: #F4c20d;
 	border-color: #4885ed;
     background-color: #58a55d;
+    cursor: pointer;
 }
 
 #toggle-button:focus {
@@ -277,7 +283,7 @@ h6{
 	border-color: #F4c20d;
 	font-weight: normal;
 	font-size: 12px;
-	color: #FBFAF5;
+	color: #4885ed;
 }
 
 .hidden{
