@@ -238,6 +238,10 @@ h6{
     margin-top: 0;
 }
 
+.card_text{
+    flex-wrap: wrap;
+}
+
 #cards-first-half{
     display: flex;
     flex-direction: row;
